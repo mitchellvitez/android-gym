@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="primary_normal">#003e7d</color>-->
+<!--    <color name="primary_extreme">#3488dd</color>-->
+    <color name="primary_normal">#dddddd</color>
+    <color name="primary_extreme">#ffffff</color>
+    <color name="primary_subtle">#888888</color>
+    <color name="secondary_normal">#003e7d</color>
+    <color name="secondary_extreme">#3488dd</color>
+    <color name="background">#FF000000</color>
+    <color name="background_distinguished">#222222</color>
+</resources>

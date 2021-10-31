@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/launcherLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Button
+        android:id="@+id/setupButton"
+        android:layout_width="124dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/background_distinguished"
+        android:text="@string/setup"
+        android:textSize="11sp"
+        android:visibility="visible"
+        app:cornerRadius="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/background_distinguished"
+        android:text="@string/begin"
+        android:visibility="visible"
+        app:cornerRadius="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exerciseDescriptions"
+        app:layout_constraintVertical_bias="0.498"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/nextUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:text="@string/nextUp"
+        android:textColor="@color/primary_extreme"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/nextUp" />
+
+    <TextView
+        android:id="@+id/workoutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout Name"
+        android:textColor="@color/primary_extreme"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextUp"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".views.MainActivity"
+        tools:text="@string/workoutName" />
+
+    <LinearLayout
+        android:id="@+id/exerciseDescriptions"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workoutName"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

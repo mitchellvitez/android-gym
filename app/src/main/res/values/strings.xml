@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gym</string>
+    <string name="begin">Begin</string>
+    <string name="back">Back</string>
+    <string name="setup">Setup</string>
+    <string name="nextUp">your next workout</string>
+    <string name="workoutName">Bench &amp; Squat</string>
+    <string name="exercise1">Bench 3×3 - 250 lbs</string>
+    <string name="exercise2">Bench 3×3 - 250 lbs</string>
+    <string name="completeSet">Complete Set</string>
+    <string name="setNumber">Set 2 </string>
+    <string name="repsNumber">3</string>
+    <string name="exercise">Overhead Press</string>
+    <string name="weight">reps of 365 lbs</string>
+    <string name="plus">+</string>
+    <string name="minus">−</string>
+    <string name="timer">when ready</string>
+    <string name="setsOutOf">of 99</string>
+</resources>
